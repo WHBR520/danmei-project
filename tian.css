@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    background-image:url(tian.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    font-family: "Poppins";
+    color: black;
+    background-position:center;
+}
+
+
+.titulo{
+    margin-top: 50px;
+    margin-left:100px;
+}
+
+span{
+    background: linear-gradient(90deg, #00ffff,#ff00c3);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box{
+    margin-top:30px;    
+    margin-left:120px;
+}
+
+.cont li{
+    list-style-type:none; 
+}
+
+ul.sub{
+    margin-left:30px;
+    margin-top:5px;
+}
+
+
+a buttom{
+    background: rgba(255,255,255,0.6);
+    border:1px solid transparent;
+    border-radius:5px;
+    padding:8px;
+}
+
+a,buttom{text-decoration:none;}
+
+a:hover{
+    background: rgba(255,255,255,0.0);
+    border: 1px solid black;
+    transition:0.3s ease;
+    padding:8px;
+}
+
+.botao{
+    margin:35px;
+    margin-left:120px;
+}

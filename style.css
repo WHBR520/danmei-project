@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(2ha.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-weight: 800;
+    color:white;
+}
+
+.cont {
+    margin-left: 200px;
+}
+
+.cont li {
+    list-style-type: none;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease; /* Adiciona transição para o efeito de afastamento */
+}
+
+.cont li:hover {
+    transform: translateX(-10px); /* Move o item 10 pixels para a esquerda quando o cursor estiver sobre ele */
+}
+
+.cont li a {
+    text-decoration: none;
+    color: white;
+    padding:5px 8px;
+}
+
+.cont li a:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+}
+
+footer div h2 a{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    display:flex;
+    color:white;
+    justify-content:center;
+    padding:15px;
+    font-size:20px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+div h2 a:hover{
+    background: linear-gradient(90deg, #00ffff,#ff00c3);
+    -webkit-background-clip: text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    transition:0.3s;
+}
+
+footer{
+    margin-bottom:0px;
+}
